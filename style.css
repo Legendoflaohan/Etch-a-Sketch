@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.unit {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 0 -1px -1px 0;
+    width: 10px;
+    height: 10px;
+}
